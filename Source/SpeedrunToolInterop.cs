@@ -32,6 +32,9 @@ public static class SpeedrunToolInterop
     internal static void Unload()
     {
         if (saveLoadAction is not null)
+        {
             Imports.Unregister?.Invoke(saveLoadAction);
+            saveLoadAction = null;
+        }
     }
 }
