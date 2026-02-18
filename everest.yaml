@@ -1,0 +1,9 @@
+- Name: RunStumbleFix
+  Version: 1.0.0
+  DLL: bin/RunStumbleFix.dll
+  Dependencies:
+    - Name: EverestCore
+      Version: 1.5935.0
+  OptionalDependencies:
+    - Name: SpeedrunTool
+      Version: 3.26.3
